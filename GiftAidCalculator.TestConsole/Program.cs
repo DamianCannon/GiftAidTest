@@ -15,7 +15,7 @@ namespace GiftAidCalculator.TestConsole
 
 		static decimal GiftAidAmount(decimal donationAmount)
 		{
-			var gaRatio = 17.5m / (100 - 17.5m);
+			var gaRatio = 20.0m / (100 - 20.0m);
 			return donationAmount * gaRatio;
 		}
 	}
